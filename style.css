@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Pastikan body memenuhi viewport */
+  margin: 0; /* Hilangkan margin default body */
+}
+
+.card {
+  margin: auto;
+  width: 500px;
+  height: 800px;
+  box-shadow: 5px 10px;
+  background-color: #D3D3D3;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.card p img {
+  display: inline-block;
+  vertical-align: middle; /* Ratakan tengah secara vertikal */
+  margin-left: 3px; /* Beri jarak 10px dari tulisan */
+}
+
+.sosmed {
+  display: flex; /* Susun ikon secara horizontal */
+  justify-content: center; /* Ratakan ke tengah */
+  gap: 10px; /* Beri jarak antar ikon */
+  border-radius: 150px;
+}
+
+.card h1 {
+  padding-left: 10px;
+  font-size: 20px;
+  margin-bottom: 10px; /* Kurangi jarak antara h1 dan paragraf */
+}
+
+.card p {
+  font-size: 16px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.card button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px; /* Tambah padding untuk button */
+  cursor: pointer;
+  margin-left: auto; /* Posisikan button di tengah */
+  padding-left: 10px;
+}
+
+.inner-card {
+  background-color: #fff;
+  text-align: center;
+  margin: 20px auto;
+  width: 250px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.inner-card h1 {
+  margin-bottom: 0; /* Hilangkan jarak antara h1 dan p.jabatan */
+}
+
+.jabatan {
+  margin-top: 0; /* Hilangkan jarak atas p.jabatan */
+}
