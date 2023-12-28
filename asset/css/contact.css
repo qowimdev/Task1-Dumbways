@@ -1,0 +1,36 @@
+.pembungkus-contact{
+    display: flex;
+    height: 100vh;
+    background-color: blue;
+    align-items: center;
+}
+
+.get-in-touch {
+    display : flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.label-style {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.input-style {
+    padding: 5px;
+    background-color: #f4f3f3;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-submit {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 150px;
+    margin-top: 20px;
+    margin-left: 200px;
+}

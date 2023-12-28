@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bagian-kiri {
+    width: 400px;
+    margin-left: 10px;
+}
+
+.bagian-kanan {
+    width: 400px;
+    margin-right: 10px
+}
+
+.card {
+    display: flex;
+    margin: 200px auto;
+    padding: 20px;
+    width: 800px;
+    height: 550px;
+    box-shadow: 5px 10px;
+    background-color: #fdfdfd;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.container-welcome h1 {
+    padding-top: 50px;
+    font-size: 20px;
+    margin-bottom: 10px; /* Kurangi jarak antara h1 dan paragraf */
+}
+
+.container-welcome p {
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.container-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.container-contact button {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 25px; 
+    padding: 10px 20px; /* Tambah padding untuk button */
+    cursor: pointer;
+}
+
+.container-contact img {
+    width: 16px;
+    height: 16px;
+}
+
+.container-sosmed {
+    display: flex; /* Susun ikon secara horizontal */
+    gap: 10px; /* Beri jarak antar ikon */
+    margin-top: 40px
+}
+
+.inner-card {
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto; /* Ubah margin menjadi 0 auto */
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.inner-card h1 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.inner-card nama-dan-role {
+    display: flex; /* Sajikan elemen sebagai flexbox */
+    flex-direction: column; /* Atur elemen dalam kolom */
+    justify-content: center; /* Ratakan elemen ke tengah cross axis */
+    align-items: center; /* Ratakan elemen ke tengah main axis (opsional) */
+}
+
+.nama-dan-role p {
+    padding-bottom: 20px;
+}
