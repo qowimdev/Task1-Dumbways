@@ -24,8 +24,8 @@ function submitData () {
     console.log(email)
     console.log(phoneNumber)
     console.log(subject)
-    console.log(massage)
+    console.log(message)
     
     let a = document.createElement('a')
-    a.href = `mailto:qowim2001@gmail.comsubject=${encodeURIComponent(subject)}&body=${encodeURIComponent(Message)}`;
+    a.href = `mailto:${email}?subject=${subject}&body=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
 } 
