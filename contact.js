@@ -9,14 +9,11 @@ function submitData () {
         return alert("name harus di isi")
     } else if(email == "") {
         return alert("email harus di isi")
-    }
-    else if(phoneNumber == "") {
-        return alert("email harus di isi")
-    }
-    else if(subject == "") {
+    } else if(phoneNumber == "") {
+        return alert("phoneNumber harus di isi")
+    } else if(subject == "") {
         return alert("subject harus di isi")
-    }
-    else if(message == "") {
+    } else if(message == "") {
         return alert("message harus di isi")
     }
     
@@ -27,5 +24,6 @@ function submitData () {
     console.log(message)
     
     let a = document.createElement('a')
-    a.href = `mailto:${email}?subject=${subject}&body=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+    a.href = `https://mail.google.com/mail/?view=cm&to=${email}&su=${subject}&body=${message}&bcc=${email}`
+    a.click()
 } 
