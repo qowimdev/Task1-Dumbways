@@ -1,4 +1,6 @@
-function submitData () {
+function submitData (event) {
+    event.preventDefault()
+
     const name = document.getElementById("name").value
     const email = document.getElementById("email").value
     const phoneNumber = document.getElementById("phoneNumber").value
